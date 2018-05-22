@@ -21,24 +21,23 @@ function clearText(field){
 </script>
 </head>
 <body>
-<?php include_once("analyticstracking.php") ?>
 <?php INCLUDE ('header.php'); ?>
 
     <div id="sliderFrame">
         <div id="ribbon"></div>
         <div id="slider">
             <a href="http://www.menucool.com/">
-                <img src="images1/image-slider-1.jpg" alt="::::Sri Venkataswara Temple Itikya::::" />
+                <img src="images1/image-slider-1.jpg" alt=":::: Sri Venkataswara Temple in Itikyal ::::" />
             </a>
-            <a class="lazyImage" href="images1/image-slider-2.jpg" title="Customizable Transition Effects">Customizable Transition Effects</a>
+            <a class="lazyImage" href="images1/image-slider-2.jpg" title=":::: Itikyal Gadi ::::">Customizable Transition Effects</a>
             <a href="http://www.menucool.com/javascript-image-slider">
-                <b data-src="images1/image-slider-3.jpg" data-alt="#htmlcaption3">Image Slider</b>
+                <b data-src="images1/image-slider-3.jpg" data-alt="::::: Famous Sai Baba Temple in Itkyal :::::">Image Slider</b>
             </a>
-            <a class="lazyImage" href="images1/image-slider-4.jpg" title="Pure Javascript. No jQuery. No flash.">Plain Javascript Slider</a>
-            <a class="lazyImage" href="images1/image-slider-5.jpg" title="#htmlcaption5">Lazy Loading Image</a>
-            <a class="lazyImage" href="images1/image-slider-1.jpg" title="Light weight Image Slider">Light weight Image Slider</a>
-            <a class="lazyImage" href="images1/image-slider-2.jpg" title="Fine tuned. Sleek & Smooth">Fine tuned. Sleek & Smooth</a>
-            <a class="lazyImage" href="images1/image-slider-3.jpg" title="Easy-to-Use Slider">Easy-to-Use Slider</a>
+            <a class="lazyImage" href="images1/image-slider-4.jpg" title=":::: Evergreen natural Locations ::::">Plain Javascript Slider</a>
+            <a class="lazyImage" href="images1/image-slider-5.jpg" title=":::: BABA Garden in Temple ::::">Lazy Loading Image</a>
+            <a class="lazyImage" href="images1/image-slider-1.jpg" title=":::: Sri Venkataswara Temple in Itikyal :::">Light weight Image Slider</a>
+            <a class="lazyImage" href="images1/image-slider-2.jpg" title=":::: Itikyal Gadi ::::">Fine tuned. Sleek Smooth</a>
+            <a class="lazyImage" href="images1/image-slider-3.jpg" title="::::: Famous Sai Baba Temple in Itkyal ::::">Easy-to-Use Slider</a>
         </div>
         <div style="display: none;">
             <div id="htmlcaption3">

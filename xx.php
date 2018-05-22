@@ -1,4 +1,4 @@
-
-<?php
-print_r($_COOKIE);
+
+<?php
+print_r($_COOKIE);
 ?>

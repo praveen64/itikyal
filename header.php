@@ -1,7 +1,7 @@
 
 <div id="templatemo_container">
    <div id="templatemo_banner">
-       <div id="logo"></div>  
+      <!-- <div id="logo"></div>  -->
 
         <div id="search_section">
             <form action="Search.php" method="post">
@@ -22,3 +22,24 @@
             <li><a href="contactus.php"><span></span>Sign up</a></li>
         </ul>   
    </div> <!-- end of menu -->
+
+<marquee direction="left" bgcolor="Tomato">
+<?php
+INCLUDE ("config.sql");
+$result=mysqli_query($con, "SELECT * FROM `successdonations`
+ORDER BY `successdonations`.`datetime`  DESC;"); 
+
+
+while($row=mysqli_fetch_array($result)) 
+
+{  
+    echo" &nbsp; <b><font color='#ffcc00'>". $row['firstname']."</font></b>";
+    echo "<i> donted </i> ";
+    echo "<b><font color='Green'>&#8377;".$row['amount']." </font></b> &nbsp; || ";
+    
+    
+}
+  
+mysqli_close($con);
+?>
+</marquee>

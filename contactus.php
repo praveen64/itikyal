@@ -28,36 +28,35 @@ function clearText(field){
            <div class="header_01">
                Latest Blog Posts
             </div>
-            
-         <div class="latest_news">
-              <div class="header_03">[29-OCT-2024]</div>
-               <div class="header_02"><a href="#">Aenean a bibendum augue</a></div>
-                
-                <p>Praesent eu ligula quis nibh ullamcorper tempor non ultrices lacus.</p>
-         </div>
-                        
-            <div class="margin_bottom_10"></div>
-            
+           
             <div class="latest_news">
-                <div class="header_03">[13-JAN-2015]</div>
-              <div class="header_02"><a href="#">Nulla pharetra leo eget </a></div>
-                <p>Vivamus condimentum justo id tortor rhoncus eu ornare sem malesuada. </p>
-         </div>
-                        
-            <div class="margin_bottom_10"></div>
-            
-            <div class="latest_news">
-                <div class="header_03">[27-OCT-2024]</div>
-              <div class="header_02"><a href="#">Vivamus metus justo</a></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-         </div>
+            <div class="header_03">[29-JUN-2017]</div>
+             <div class="header_02"><a href="#">Newly Formed Gym</a></div>
+              
+              <p>Itikyal gym can help you get a little more motivated to strive toward your own fitness ...</p>
+       </div>
+                      
+          <div class="margin_bottom_10"></div>
+          
+          <div class="latest_news">
+              <div class="header_03">[28-OCT-2016]</div>
+            <div class="header_02"><a href="#">Famous Visting Places</a></div>
+              <p>Don't miss a chance to visit some of the best places in itikyal like Sai Baba  Temple,Venkateswara Temple,Beautifull Rivers....</p>
+       </div>
+                      
+          <div class="margin_bottom_10"></div>
+          
+          <div class="latest_news">
+              <div class="header_03">[27-AUG-2016]</div>
+            <div class="header_02"><a href="#">Itikyal Sarpanch</a></div>
+              <p>A sarpanch is an elected head of a village-level statutory institution of local self-government called the panchayat (village government) in India (gram panchayat). The sarpanch, together with other elected panchas (members), constitute the gram panchayat. </p>
+       </div> 
                         
             <div class="margin_bottom_10"></div>
             
             <div class="rc_btn_01"><a href="#">Read All</a></div>
             
-        <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=praveenamz-21&marketplace=amazon&region=IN&placement=B00WGCWOPY&asins=B00WGCWOPY&linkId=72575302b1e165f021c9a19a248ce7fd&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
+        
            <div class="cleaner"></div>
         </div> <!-- end of a column -->
         
@@ -82,9 +81,7 @@ Education:<select name="education">
   <option value="OTHER">Other</option>
 </select></td></tr><tr><td>Occupation:<input type="text" name="occupation"></td></tr><tr><td>Age:<input type="text" name="age"></td></tr><tr><td>
 <input type="checkbox" name="Agree" value="ok">I Agree terms and conditions</td></tr><tr><td><center><input type="submit"></center></td></tr>
-</table></form></div>
-<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="praveenamz-21"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="IN"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height ="auto"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="Agriculture";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=IN"></script>
-</center>
+</table></form></div></center>
 
          
         
@@ -96,23 +93,21 @@ Education:<select name="education">
            <div class="header_01">
                Categories
             </div>
-            
-           <ul class="category_list">
-                 <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Aenean ac lobortis felis</a></li>
-                <li><a href="#">Cras eros dolor</a></li>
-                <li><a href="#">Vivamus orci velit</a></li>
-                <li><a href="#">Proin ultrices eros</a></li>
-                <li><a href="#">Aliquam ac nisl eget</a></li>
-                <li><a href="#">Praesent vehicula tellus</a></li>
-                <li><a href="#">Mauris egestas nunc</a></li>
-                <li><a href="#">Ut semper porta magna</a></li>
-                <li><a href="#">Donec ante risus</a></li>
-                <li><a href="#">Nunc bibendum neque</a></li>
-          </ul>
-            
-        <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=tf_til&ad_type=product_link&tracking_id=praveenamz-21&marketplace=amazon&region=IN&placement=B01J40F2AY&asins=B01J40F2AY&linkId=c45698242aeecc2c01aedd5328f385dd&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
+
+            <ul class="category_list">
+                  <li><a href="#">Itikyal Agriculture</a></li>
+                 <li><a href="#">Itikyal Schools</a></li>
+                 <li><a href="#">Itikyal College</a></li>
+                 <li><a href="#">Itikyal Market</a></li>
+                 <li><a href="#">Itikyal Shops</a></li>
+                 <li><a href="#">Itikyal Temples</a></li>
+                 <li><a href="#">Itikyal Castes</a></li>
+                 <li><a href="#">Itikyal Religions</a></li>
+                 <li><a href="#">Itikyal Festivels</a></li>
+                 <li><a href="#">Itikyal Banks</a></li>
+                 <li><a href="#">Itikyal services</a></li>
+           </ul>
+        
            <div class="cleaner"></div>
         </div> <!-- end of a column -->
         
@@ -121,25 +116,25 @@ Education:<select name="education">
         
         <div class="column_w920">
         
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_02.jpg" alt="image" /></a>
-              <p>Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_03.jpg" alt="image" /></a>
-          <p>Pellentesque tortor metus, gravida ut aliquet non, iaculis nec nisi. Null am ornare, mauris vitae vehicula veh icula. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_04.jpg" alt="image" /></a>
-          <p>Proin consequat interdum mauris id auctor. In justo dolor, luctus sed tristique vel, porttitor eu enim. In molestie vehicula pretium  iaculis. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl">
-               <a href="#"><img src="images/templatemo_image_05.jpg" alt="image" /></a>
-          <p>Suspendisse odio erat, mattis in hend rerit id, iaculis at metus. Aliquam ligula justo, gravida sed pretium eu. <a href="#">Read more...</a></p>                
-          </div>
+        <div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_02.jpg" alt="image" /></a>
+       <p>Ever green  nature and peaceful environment  high yield crops and fields in itikyal....<a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_03.jpg" alt="image" /></a>
+   <p>Venkateswara Temple, Itikyal. Venkateswara Temple is a landmark Vaishnavite temple situated in the middle of village at Itikya in jagital district of Telangana Pradesh, India. ... <a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_04.jpg" alt="image" /></a>
+   <p>The library is a key to the world of knowledge and acquisition of knowledge will help enlighten the personality of an individual at the vital, spiritual and mental .. <a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl">
+        <a href="#"><img src="images/templatemo_image_05.jpg" alt="image" /></a>
+   <p>Full of interesting river facts , this page will amaze and astound you with interesting facts about itikyal river...<a href="#">Read more...</a></p>                
+   </div>
         
             <div class="margin_bottom_15"></div>
         </div>

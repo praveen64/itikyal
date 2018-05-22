@@ -76,20 +76,20 @@ function clearText(field){
            <div class="header_01">
                Categories
             </div>
-            
-           <ul class="category_list">
-                 <li><a href="#">Lorem ipsum dolor</a></li>
-                <li><a href="#">Aenean ac lobortis felis</a></li>
-                <li><a href="#">Cras eros dolor</a></li>
-                <li><a href="#">Vivamus orci velit</a></li>
-                <li><a href="#">Proin ultrices eros</a></li>
-                <li><a href="#">Aliquam ac nisl eget</a></li>
-                <li><a href="#">Praesent vehicula tellus</a></li>
-                <li><a href="#">Mauris egestas nunc</a></li>
-                <li><a href="#">Ut semper porta magna</a></li>
-                <li><a href="#">Donec ante risus</a></li>
-                <li><a href="#">Nunc bibendum neque</a></li>
-          </ul>
+
+            <ul class="category_list">
+                  <li><a href="#">Itikyal Agriculture</a></li>
+                 <li><a href="#">Itikyal Schools</a></li>
+                 <li><a href="#">Itikyal College</a></li>
+                 <li><a href="#">Itikyal Market</a></li>
+                 <li><a href="#">Itikyal Shops</a></li>
+                 <li><a href="#">Itikyal Temples</a></li>
+                 <li><a href="#">Itikyal Castes</a></li>
+                 <li><a href="#">Itikyal Religions</a></li>
+                 <li><a href="#">Itikyal Festivels</a></li>
+                 <li><a href="#">Itikyal Banks</a></li>
+                 <li><a href="#">Itikyal services</a></li>
+           </ul>
             
         
            <div class="cleaner"></div>
@@ -100,25 +100,25 @@ function clearText(field){
         
         <div class="column_w920">
         
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_02.jpg" alt="image" /></a>
-              <p>Nam sit amet justo vel libero tincidunt dignissim. Cras magna velit, pellentesque mattis, faucibus vitae, feugiat vitae. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_03.jpg" alt="image" /></a>
-          <p>Pellentesque tortor metus, gravida ut aliquet non, iaculis nec nisi. Null am ornare, mauris vitae vehicula veh icula. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl margin_right_40">
-               <a href="#"><img src="images/templatemo_image_04.jpg" alt="image" /></a>
-          <p>Proin consequat interdum mauris id auctor. In justo dolor, luctus sed tristique vel, porttitor eu enim. In molestie vehicula pretium  iaculis. <a href="#">Read more...</a></p>                
-          </div>
-            
-      <div class="column_w190 fl">
-               <a href="#"><img src="images/templatemo_image_05.jpg" alt="image" /></a>
-          <p>Suspendisse odio erat, mattis in hend rerit id, iaculis at metus. Aliquam ligula justo, gravida sed pretium eu. <a href="#">Read more...</a></p>                
-          </div>
+        <div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_02.jpg" alt="image" /></a>
+       <p>Ever green  nature and peaceful environment  high yield crops and fields in itikyal....<a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_03.jpg" alt="image" /></a>
+   <p>Venkateswara Temple, Itikyal. Venkateswara Temple is a landmark Vaishnavite temple situated in the middle of village at Itikya in jagital district of Telangana Pradesh, India. ... <a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl margin_right_40">
+        <a href="#"><img src="images/templatemo_image_04.jpg" alt="image" /></a>
+   <p>The library is a key to the world of knowledge and acquisition of knowledge will help enlighten the personality of an individual at the vital, spiritual and mental .. <a href="#">Read more...</a></p>                
+   </div>
+     
+<div class="column_w190 fl">
+        <a href="#"><img src="images/templatemo_image_05.jpg" alt="image" /></a>
+   <p>Full of interesting river facts , this page will amaze and astound you with interesting facts about itikyal river...<a href="#">Read more...</a></p>                
+   </div>
         
             <div class="margin_bottom_15"></div>
         </div>

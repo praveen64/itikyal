@@ -32,32 +32,35 @@ echo"Search Result for <font color='green'>$text</font>" ?>:::</h1></center>
 <?php
 INCLUDE ("config.sql");
 $text=mysqli_real_escape_string($con, $_POST['search']);
-$result=mysqli_query($con, "SELECT * FROM itikyal
-WHERE ID='$text' OR Firstname='$text' OR Lastname='$text' OR Mobile='$text' OR Gender='$text' OR Email='$text' OR Address='$text' OR Education='$text' OR Occupation='$text' OR Age='$text' "); 
+$result=mysqli_query($con, "SELECT * FROM fsc
+WHERE sn='$text' OR rn='$text' OR rcn='$text' OR cardtypeid='$text' OR hof='$text' OR hno='$text' OR units='$text' OR gas='$text' OR approveddate='$text' OR CardPoolType='$text' "); 
 echo "<table>
 <tr>
-<td>ID</td>
-<td>First Name</td>
-<td>Last Name</td>
-<td>Mobile</td>
-<td>Gender</td>
-<td>Email</td>
-<td>Address</td>
-<td>Education</td>
-<td>Occupation</td>
-<td>Age</td>
+<th>Serial No</th>
+<th>Reference No</th>
+<th>Ration Card No</th>
+<th>cardtypeid</th>
+<th>Head Of Family</th>
+<th>House No</th>
+<th>Units</th>
+<th>Gas</th>
+<th>Approved Date</th>
+<th>Card Pool Type</th>
 </tr>";
 while($row=mysqli_fetch_array($result)) 
 
 {  echo "<tr>";
-   echo "<td>" . $row['ID'] . "</td>";
-   echo "<td>" . $row['Firstname'] . "</td>";
-   echo "<td>" .  $row['Lastname'] . "</td>";        echo "<td>" .  $row['Mobile'] . "</td>";
-   echo "<td>" . $row['Gender'] . "</td>";
-   echo "<td>" .  $row['Email'] . "</td>";            echo "<td>" .  $row['Address'] . "</td>";
-   echo "<td>" . $row['Education'] . "</td>";
-   echo "<td>" .  $row['Occupation'] . "</td>";      echo "<td>" .  $row['Age'] . "</td>"; 
-   echo "</tr>";
+    echo "<td>". $row['sn'] . "</td>";
+    echo "<td>". $row['rn'] . "</td>";
+    echo "<td>" .  $row['rcn'] . "</td>";
+    echo "<td>" .  $row['cardtypeid'] . "</td>";
+    echo "<td>" . $row['hof'] . "</td>";
+    echo "<td>" .  $row['hno'] . "</td>";
+    echo "<td>" .  $row['units'] . "</td>";
+    echo "<td>" .  $row['gas'] . "</td>";
+    echo "<td>" . $row['approveddate'] . "</td>";
+    echo "<td>" .  $row['CardPoolType'] . "</td>"; 
+  echo "</tr>";
 }
   
 mysqli_close($con);
