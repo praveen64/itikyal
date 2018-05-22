@@ -148,8 +148,9 @@ function clearText(field){
             
 
             <div class="header_01">Welcome to our Itikyal Village site!</div>
+           <div id="donate">
             <a href="/donate.php"><img src="images/templatemo_donate.png" heigh="100" width="250" align="center" alt="donate" /></a>
-
+           </div>
             
 
             <p>Itikial also known as itikyala is a small town in <a href="http://en.m.wikipedia.org/wiki/Karimnagar_district">Karimnagar district,</a>of<a href="http://en.m.wikipedia.org/wiki/Telangana">Telangana,</a> India. The town is about 65 km from the district
@@ -217,18 +218,28 @@ and female literacy is 51%.</p>
 <!----------------------------------------------------------->
 <?php
 INCLUDE ("config.sql");
-$result1=mysqli_query($con, "SELECT count(hof) as th,sum(units) as tp FROM fsc;"); 
-$result2=mysqli_query($con, "SELECT sum(amount) as td FROM successdonations where status='success';"); 
-
-$row1=mysqli_fetch_array($result1);
-$row2=mysqli_fetch_array($result2);
-$houses=$row1['th'];
-$population=$row1['tp'];
-$donation=  $row2['td'];
+$result=mysqli_query($con, "SELECT count(hof) as th,sum(units) as tp,sum(amount) as td FROM fsc;"); 
+$row=mysqli_fetch_array($result);
+$houses=$row['th'];
+$population=$row['tp'];
+$donation=  $row['td'];
 mysqli_close($con);    
 
 ?>
 <!----------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!-- Trigger/Open The Modal -->
@@ -247,7 +258,7 @@ mysqli_close($con);
     <div class="modal-body">
      <h1>Total Houses : <?php echo $houses."."; ?></h1>
      <h1>Total Population : <?php echo $population."."; ?></h1>
-     <h1>Total Donation Amount :  <?php echo "&#8377;".$donation."/-"; ?> </h1>
+     <h1>Total Donation Amount : <?php echo "&#8377;".$donation."/-"; ?></h1>
      
     </div>
     <div class="modal-footer">
