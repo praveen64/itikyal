@@ -143,12 +143,12 @@ function clearText(field){
         <div class="column_w430 fl vl_divider">
 
            
-
             <img src="images/templatemo_image_01.jpg" alt="image" />
 
             
 
             <div class="header_01">Welcome to our Itikyal Village site!</div>
+            <a href="/donate.php"><img src="images/templatemo_donate.png" heigh="100" width="250" align="center" alt="donate" /></a>
 
             
 

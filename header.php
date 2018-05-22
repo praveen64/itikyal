@@ -26,16 +26,15 @@
 <marquee direction="left" bgcolor="Tomato">
 <?php
 INCLUDE ("config.sql");
-$result=mysqli_query($con, "SELECT * FROM `successdonations`
-ORDER BY `successdonations`.`datetime`  DESC;"); 
+$result=mysqli_query($con, "SELECT * FROM fsc;"); 
 
 
 while($row=mysqli_fetch_array($result)) 
 
 {  
-    echo" &nbsp; <b><font color='#ffcc00'>". $row['firstname']."</font></b>";
+    echo" &nbsp; <b><font color='#ffcc00'>". $row['hof']."</font></b>";
     echo "<i> donted </i> ";
-    echo "<b><font color='Green'>&#8377;".$row['amount']." </font></b> &nbsp; || ";
+    echo "<b><font color='Green'>&#8377;".$row['AMOUNT']." </font></b> &nbsp; || ";
     
     
 }
