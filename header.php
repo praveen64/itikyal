@@ -32,9 +32,9 @@ $result=mysqli_query($con, "SELECT * FROM successdonations where status='success
 while($row=mysqli_fetch_array($result)) 
 
 {  
-    echo" &nbsp; <b><font color='#ffcc00'>". $row['firstname']."</font></b>";
+    echo" &nbsp; <b><font color='#fcdd31'> ". $row['firstname']." </font> [ ".$row['phone']." ] </b>";
     echo " &nbsp <i> donted </i> ";
-    echo "<b><font color='Green'> &nbsp &#8377;".$row['amount']." </font></b> &nbsp; || ";
+    echo "<b><font color='Green'> &nbsp &#8377;".$row['amount']." </font></b> &nbsp; on &nbsp; ".$row['datetime']." &nbsp; || &nbsp;  ";
     
     
 }
